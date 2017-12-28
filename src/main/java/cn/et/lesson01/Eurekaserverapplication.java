@@ -11,7 +11,7 @@ public class Eurekaserverapplication {
 	public static void main(String[] args) {
 		SpringApplication sa=new SpringApplication(Eurekaserverapplication.class);  
         sa.run(args);  
-
+		System.out.println("你好");
 	}
 
 }
